@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    background-image: url(texture3.png);
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+
+div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+div > div {
+    border: 1px solid transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+    background-color: silver;
+    color: aqua;
+    border-radius: 10px;
+}
+
+footer {
+    background-image: url(cs2.jpg);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+footer a, footer a:visited{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+article {
+    padding-top: 15px;
+    display: none;
+}
+
+article > p {
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+article > h2 {
+    font-size: 20px;
+}
+
+.break {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+nav {
+    padding-top: 0px;
+    text-align: center;
+    background-image: url(cs2.jpg);
+    width:auto;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+div > div:hover, div > div:active, .curr {
+    border: 1px solid silver;
+    color: crimson;
+    background-color: white;
+    cursor: pointer;
+}
+
+nav a:link, a:visited {
+    text-decoration: none;
+    background-color: white;
+    color: purple;
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+}
+
+article > a {
+    margin-left: 50%;
+    margin-right: 50%;
+    font-size: 30px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+nav a:hover, nav a:active, #active {
+    background-color: purple;
+    color: white;
+    border-color: white;
+}
